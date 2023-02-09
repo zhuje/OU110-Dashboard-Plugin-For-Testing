@@ -54,7 +54,8 @@
     "displayName": "Dashboards datasource plugin",
     "description": "Plugin to add proxy configurations from to console to in-cluster services to populate dashboards",
     "exposedModules": {
-      "ProxyTestPage": "./components/ProxyTestPage"
+      "ProxyTestPage": "./components/ProxyTestPage",
+      "BasePath": "./components/BasePath"
     },
     "dependencies": {
       "@console/pluginAPI": "*"

@@ -1,10 +1,11 @@
 [
   {
-    "type": "console.page/route",
+    "type": "console.dashboards/datasource",
     "properties": {
-      "exact": true,
+      "datasourceID": "test-barcard-uid",
       "path": "/dashboards-datasource-plugin",
-      "component": { "$codeRef": "ProxyTestPage" }
+      "component": { "$codeRef": "ProxyTestPage" },
+      "getDataSource": { "$codeRef": "BasePath.getDataSource" }
     }
   }
 ]
